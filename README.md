@@ -163,33 +163,6 @@ The receiver firmware is intended to:
 5. Turn the indicator off when the path is clear.
 6. Enter a safe state when received data becomes stale.
 
----
-
-## Repository Structure
-
-```text
-.
-├── README.md
-├── hardware/
-│   ├── schematic/
-│   ├── pcb/
-│   ├── footprints/
-│   └── datasheets/
-├── firmware/
-│   ├── transmitter/
-│   ├── receiver/
-│   └── radio-tests/
-├── documentation/
-│   ├── wiring/
-│   ├── design-notes/
-│   └── test-results/
-└── images/
-```
-
-The current repository may not yet follow this exact structure. It can be reorganized as the project develops.
-
----
-
 ## Current Development Priorities
 
 - Improve packet and acknowledgement reliability
